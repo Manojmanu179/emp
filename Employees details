@@ -1,0 +1,24 @@
+import java. util. *;
+public class Employee
+{
+    public static void main(String[] args) {
+    String name[];
+    int yr[],sal[];
+    String add[];
+    Scanner sc=new Scanner(System.in);
+    for(int i=0;i<3;i++){
+        System .out.println ("Enter the name of the emp");
+        name[i]=sc.nextLine();
+        System .out.println("Enter the year of joining of the emp");
+        yr[i]=sc.nextInt();
+        System .out.println("Enter the salary of the emp");
+        sal[i]=sc.nextInt();
+        System .out.println("Enter the address of the emp");
+        add[i]=sc.nextLine();}
+        System .out.println ("The details of the emp are");
+        System .out.println("Name\tYear of joining\tSalary\tAddress");
+        for(int i=0;i<3;i++)
+    {   System .out.println("%s\t,%d\t,%d\t,%s",name[i],yr[i],sal[i],add[i]);
+     }
+    }
+}
